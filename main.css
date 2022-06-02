@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header{
+	background-color: white;
+	padding: 10px 0 10px 50px;
+	text-align: left;
+	font-size: 20px;
+	font-style: italic;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	font-family: 'Noto Serif JP', serif;
+	background-image:url("images/handmadepaper_@2X.png");
+	background-repeat: repeat;
+}
+
+.menu{
+	display: flex;
+	display: -webkit-flex;
+	background-color: #D7F0FF;
+	height: 50px;
+	font-style: italic;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.menu a{
+	background-color: #D6F4FF;
+	width: 25%;
+	height: 50px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	
+	font-size: 20px;
+	color: #001669;
+}
+
+.menu a:hover{
+	background-color: #A8DCFF;
+	color: #001669;
+}
+
+.content a
+{
+	color: white;
+	text-decoration: none;
+	font-family: 'Noto Serif JP', serif;
+	text-shadow: 1px 1px 1px #616161;
+}
+
+.content a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.TopButton a{
+	position: fixed;
+	margin-left: 95%;
+	width: 5%;
+	bottom: 10%;
+    right: 0px; 
+	text-align: center;
+	background-image: none;
+	text-decoration:none;
+	margin: 0px;
+	font-size: 30px;
+	background-color:#00C6FF;
+	color:#000153;
+}
+
+.TopButton a:hover{
+	background-color:#007CA0;
+	color:#000153;
+}
+
+footer {
+    width: 100%;
+    border-top: solid 3px #00096A;
+    padding-top: 10px;
+    text-align: center;
+    bottom: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+footer p {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
